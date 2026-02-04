@@ -29,7 +29,7 @@ Content-Type: application/json
 
 {
   "name": "Franz Kafka",
-  "email": "metamorphosis@kafka.com",
+  "email": "metamorphosis_test@kafka.com",
   "address": "123 main street",
   "dateOfBirth": "1995-09-09",
   "registeredDate": "2026-02-01"
