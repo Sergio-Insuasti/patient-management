@@ -22,3 +22,15 @@ Content-Type: application/json
   "dateOfBirth": "1995-09-09",
   "registeredDate": "2026-02-01"
 }
+
+### Creates a new patient entity with Kafka messaging
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "Franz Kafka",
+  "email": "metamorphosis@kafka.com",
+  "address": "123 main street",
+  "dateOfBirth": "1995-09-09",
+  "registeredDate": "2026-02-01"
+}
