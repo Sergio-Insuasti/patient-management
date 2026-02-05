@@ -13,7 +13,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="auth-service-db" uuid="4a180126-ecf4-4e59-ba04-12107879f064">
+    <data-source source="LOCAL" name="auth-service-db" uuid="11f39845-58d9-49d1-936f-a04c2c62d5ce">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
