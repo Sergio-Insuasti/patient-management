@@ -10,7 +10,7 @@
   - API Gateway
 - Kafka
 - PostgreSQL
-- Amazon AWS
+- LocalStack (Simulated AWS Environment)
 - Jpa
 - JWT
 - Protobuf
@@ -59,3 +59,9 @@ ensures tighter security on user access.
 In order to assert the functionality of the authentication service, along with token validation, Integration Tests
 were set up using JUnit and Rest Assured. These allowed for tests to be performed for both successful and unsuccessful
 calls to auth/login and get-patients.
+
+### LocalStack
+While AWS may incur costs, this project uses LocalStack, which emulates the AWS environment.
+While this project does not deploy directly to AWS, the code and implementation is fully compatible to 
+deployment to AWS. Some features however are limited/no supported, e.g. IAMs and Security Roles. This is due to the
+fact that LocalStack is only emulating AWS on one machine.
