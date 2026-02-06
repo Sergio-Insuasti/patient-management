@@ -39,4 +39,14 @@ public class PatientIntegrationTest {
                 .body("patients", notNullValue());
     }
 
+    @Test
+    public void shouldReturnUnauthorisedWithInvalidToken() {
+        String token = "thisisabadtoken";
+        given()
+                .header("Authorization", "Bearer " + token)
+                .when()
+                .get("/api/patients")
+                .then()
+                .statusCode(401);
+    }
 }
