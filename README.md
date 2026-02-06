@@ -15,6 +15,8 @@
 - JWT
 - Protobuf
 - gRPC
+- Rest Assured
+- JUnit
 
 ## Features
 ### Patient Service
@@ -52,3 +54,8 @@ ensure that users had the right access permissions, and if so, authenticate that
 were given by this server. This was done with the help of JWT as well as Spring Cloud and Spring Security.
 By using Docker to store the secret key, this means that token validation cannot be bypassed externally and 
 ensures tighter security on user access.
+
+### Integration Tests
+In order to assert the functionality of the authentication service, along with token validation, Integration Tests
+were set up using JUnit and Rest Assured. These allowed for tests to be performed for both successful and unsuccessful
+calls to auth/login and get-patients.
