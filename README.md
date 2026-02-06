@@ -65,3 +65,4 @@ While AWS may incur costs, this project uses LocalStack, which emulates the AWS 
 While this project does not deploy directly to AWS, the code and implementation is fully compatible to 
 deployment to AWS. Some features however are limited/no supported, e.g. IAMs and Security Roles. This is due to the
 fact that LocalStack is only emulating AWS on one machine.
+To further this, deployment will be implemented through IaC.
