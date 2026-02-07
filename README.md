@@ -1,5 +1,5 @@
 # Patient Management System
-## A Full-Stack Production-Ready Microservice Architecture
+## A Production-Ready Microservice Architecture Backend
 
 ### Spring Boot Architecture (e.g. Patient Service)
 ![SpringBootArch.png](assets/SpringBootArch.png)
