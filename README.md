@@ -1,6 +1,12 @@
 # Patient Management System
 ## A Full-Stack Production-Ready Microservice Architecture
 
+### Spring Boot Architecture (e.g. Patient Service)
+![SpringBootArch.png](assets/SpringBootArch.png)
+### Local Infrastructure
+![LocalInfrastructure.png](assets/LocalInfrastructure.png)
+### Deployment Infrastructure
+![Blank diagram - Page 1.png](assets/Blank%20diagram%20-%20Page%201.png)
 ### Tech Stack Used:
 - Java
 - Spring 
